@@ -1,0 +1,8 @@
+---
+- name: Local Test
+  hosts: localhost
+  tasks:
+    - name: Call test module
+      my_own_module: 
+        path: /tmp/ansible_test
+        content: test message
