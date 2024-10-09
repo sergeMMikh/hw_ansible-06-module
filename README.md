@@ -34,7 +34,7 @@
 **Шаг 5.** Напишите single task playbook и используйте module в нём.
 
 **Решение**
-single task playbook:
+single task [playbook](site.yml):
 ```
 ---
 - name: Local Test
