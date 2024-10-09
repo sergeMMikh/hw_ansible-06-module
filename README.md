@@ -200,7 +200,7 @@ if __name__ == '__main__':
 **Решение**
 Модуль.
 
-```
+```python
 #!/usr/bin/python
 
 # Copyright: (c) 2018, Terry Jones <terry.jones@example.org>
