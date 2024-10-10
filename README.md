@@ -60,7 +60,13 @@ single task [playbook](site.yml):
 
 **Шаг 8.** Инициализируйте новую collection: `ansible-galaxy collection init my_own_namespace.yandex_cloud_elk`.
 
+*Создана коллекция*</br>
+   <img src="images/Task_9.png" alt="Task_9.png" width="500" height="auto"></br>
+
 **Шаг 9.** В эту collection перенесите свой module в соответствующую директорию.
+
+*Перенёс свой module в соответствующую директорию*</br>
+   <img src="images/Task_9_.png" alt="Task_9_.png" width="100" height="auto"></br>
 
 **Шаг 10.** Single task playbook преобразуйте в single task role и перенесите в collection. У role должны быть default всех параметров module.
 
@@ -69,6 +75,10 @@ single task [playbook](site.yml):
 **Шаг 12.** Заполните всю документацию по collection, выложите в свой репозиторий, поставьте тег `1.0.0` на этот коммит.
 
 **Шаг 13.** Создайте .tar.gz этой collection: `ansible-galaxy collection build` в корневой директории collection.
+
+**Решение**
+*Коллекция собрана в [архив](https://github.com/sergeMMikh/hw_ansible-06-module/blob/main/my_own_namespace-yandex_cloud_elk-1.0.0.tar.gz).*</br>
+   <img src="images/Task_13.png" alt="Task_13.png" width="500" height="auto"></br>
 
 **Шаг 14.** Создайте ещё одну директорию любого наименования, перенесите туда single task playbook и архив c collection.
 
